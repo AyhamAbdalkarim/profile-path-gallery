@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, Certificate } from "lucide-react";
+import { ArrowLeft, Award } from "lucide-react";
 
 const CertificateDetail = () => {
   const { id } = useParams();
@@ -57,7 +57,7 @@ const CertificateDetail = () => {
               <span>Back to Portfolio</span>
             </Link>
             <div className="flex items-center gap-2">
-              <Certificate className="w-5 h-5 text-purple-500" />
+              <Award className="w-5 h-5 text-purple-500" />
               <span className="font-medium">Certificate Details</span>
             </div>
           </div>
