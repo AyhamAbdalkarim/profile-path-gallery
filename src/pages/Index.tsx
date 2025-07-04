@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -188,7 +187,7 @@ const Index = () => {
               <h2 className="text-3xl font-bold text-slate-800 mb-2">Certificates</h2>
               <p className="text-slate-600">Professional certifications and achievements</p>
             </div>
-            <Certificate className="w-8 h-8 text-purple-500" />
+            <Award className="w-8 h-8 text-purple-500" />
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
